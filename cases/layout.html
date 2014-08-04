@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="layout.js"></script>
+    <style>
+        #sidebar {
+            float:left;
+            margin-right:30px;
+            width:20%;
+        }
+        #content {
+            margin-left:20%;
+        }
+        #sidebar, #promo, #content {
+            border:1px solid red;
+        }
+        #promo {
+            margin:20px;
+        }
+        img {
+            max-width: 100%;
+            height:auto;
+        }
+    </style>
+    <style media="all and (max-width:600px)">
+        #sidebar {
+            display: none;
+        }
+        #content {
+            margin-left:0;
+        }
+    </style>
+</head>
+<body>
+<div id="sidebar">
+    <h1>Sidebar</h1>
+    <p>Curabitur feugiat massa lorem, a porta lorem feugiat sit amet. Pellentesque posuere diam non convallis mollis. Nunc a lobortis arcu, lobortis luctus est. Curabitur vel lorem at turpis imperdiet semper vitae non dolor. Fusce vel malesuada dui. In imperdiet enim ut nisl porta, vitae consectetur sapien auctor. Donec hendrerit ante at ipsum sagittis, at feugiat metus placerat. Donec commodo quam nec hendrerit convallis. Mauris commodo justo eros, ut gravida massa ultricies id.</p>
+    <div id="promo">
+        <img src="../assets/catvideos.jpg" />
+    </div>
+</div>
+<div id="content">
+    <h1>Content</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque blandit est, id ullamcorper erat vulputate nec. Aenean eu auctor leo, vitae auctor arcu. Proin porttitor, est viverra fringilla faucibus, metus sapien aliquet quam, vel interdum turpis metus vitae justo. Morbi ultricies turpis vel ipsum sodales, eu condimentum lorem lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut a nunc aliquam, rhoncus lectus sed, consequat lectus. Maecenas mi tortor, rhoncus non lorem nec, volutpat sagittis tellus. Maecenas suscipit neque non quam feugiat sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin libero est, rutrum et tempus eu, sodales non nulla. Sed at feugiat justo, quis viverra nunc. Sed interdum sem vel tortor luctus, in venenatis nibh rhoncus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque blandit est, id ullamcorper erat vulputate nec. Aenean eu auctor leo, vitae auctor arcu. Proin porttitor, est viverra fringilla faucibus, metus sapien aliquet quam, vel interdum turpis metus vitae justo. Morbi ultricies turpis vel ipsum sodales, eu condimentum lorem lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut a nunc aliquam, rhoncus lectus sed, consequat lectus. Maecenas mi tortor, rhoncus non lorem nec, volutpat sagittis tellus. Maecenas suscipit neque non quam feugiat sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin libero est, rutrum et tempus eu, sodales non nulla. Sed at feugiat justo, quis viverra nunc. Sed interdum sem vel tortor luctus, in venenatis nibh rhoncus.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../assets/jquery.cycle.js"></script>
+    <script src="slideshow.js"></script>
+
+    <style>
+        body {
+            margin:0;
+        }
+        #slideshow {
+            width:100%;
+            margin:0 auto;
+        }
+        .slide {
+            color:white;
+            padding:20px;
+        }
+        .slide img {
+            max-width:50%;
+            height: auto;
+            margin-right:5%;
+            float:left;
+        }
+        .slide  p {
+            margin:0;
+        }
+        .slide:after {
+            clear:both;
+            content: " ";
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div id="slideshow">
+        <div class="slide"><img src="../assets/rr1.jpg" /><p>He's never gonna give you up</p></div>
+        <div class="slide"><img src="../assets/rr2.jpg" /><p>He's never gonna let you down</p></div>
+        <div class="slide"><img src="../assets/rr3.jpg" /><p>He's never gonna run around and desert you</p></div>
+    </div>
+
+</body>
+</html>
